@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Installing and Using Power BI Desktop</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Roboto, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f9fafb;
+      color: #1f2937;
+    }
+    header {
+      background-color: #0f766e;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.8rem;
+    }
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+    h2 {
+      color: #0f766e;
+      margin-top: 2rem;
+    }
+    ol, ul {
+      margin-left: 1.5rem;
+    }
+    code {
+      background: #f1f5f9;
+      padding: 0.2rem 0.4rem;
+      border-radius: 4px;
+      font-family: monospace;
+    }
+    pre {
+      background: #0f172a;
+      color: #e5e7eb;
+      padding: 1rem;
+      border-radius: 8px;
+      overflow-x: auto;
+    }
+    a {
+      color: #0a66c2;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .highlight {
+      background: #ecfdf5;
+      padding: 1rem;
+      border-left: 5px solid #0f766e;
+      border-radius: 6px;
+      margin: 1rem 0;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #6b7280;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>📊 Installing and Using Power BI Desktop</h1>
+    <p>A simple step-by-step guide for beginners building dashboards and reports</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Step 1: Download Power BI Desktop</h2>
+      <ol>
+        <li>Visit the official Microsoft download page: 
+          <a href="https://powerbi.microsoft.com/desktop" target="_blank">https://powerbi.microsoft.com/desktop</a>
+        </li>
+        <li>Click <strong>Download Free</strong> or use the <strong>Microsoft Store</strong> link.</li>
+        <li>Choose your installation method:
+          <ul>
+            <li><strong>Microsoft Store (Recommended):</strong> Auto-updates to the latest version.</li>
+            <li><strong>Manual Installer (.exe):</strong> Ideal for enterprise or offline installation.</li>
+          </ul>
+        </li>
+        <li>Follow the installation wizard, accept the license, and complete setup.</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Step 2: Launch Power BI Desktop</h2>
+      <p>Open Power BI Desktop from your Start menu or desktop. You’ll see the <strong>Welcome Screen</strong> with options:</p>
+      <ul>
+        <li><strong>Get Data</strong> → connect to your data sources</li>
+        <li><strong>Recent Sources</strong> → reopen existing projects</li>
+        <li><strong>Learn</strong> → access tutorials and documentation</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Step 3: Understand the Interface</h2>
+      <p>Familiarize yourself with the main sections of the Power BI interface:</p>
+      <ul>
+        <li><strong>Ribbon Menu</strong> (top): Home, Insert, Model, View, Help</li>
+        <li><strong>Report Canvas</strong> (center): Build your dashboards here</li>
+        <li><strong>Fields Pane</strong> (right): Lists tables, columns, and measures</li>
+        <li><strong>Visualizations Pane</strong> (right): Choose charts and visuals</li>
+        <li><strong>Data & Model Views</strong> (left icons): Explore and manage data relationships</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Step 4: Connect to Data</h2>
+      <ol>
+        <li>Click <strong>Home → Get Data</strong>.</li>
+        <li>Select a data source:
+          <ul>
+            <li>Excel Workbook</li>
+            <li>CSV or Text File</li>
+            <li>SQL Server Database</li>
+            <li>Web Data Source</li>
+          </ul>
+        </li>
+        <li>Choose your dataset and click <strong>Load</strong>.</li>
+        <li>Your tables and fields will appear in the <strong>Fields Pane</strong>.</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Step 5: Create Your First Visualization</h2>
+      <ol>
+        <li>Click a chart type (e.g., Column Chart) in the <strong>Visualizations Pane</strong>.</li>
+        <li>Drag a numeric field (like <code>Sales</code>) to <strong>Values</strong>.</li>
+        <li>Drag a category field (like <code>Region</code>) to <strong>Axis</strong>.</li>
+        <li>Your chart appears instantly on the canvas.</li>
+        <li>Customize it using the <strong>Format</strong> brush icon.</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Step 6: Design Your Dashboard</h2>
+      <ul>
+        <li>Add multiple visuals to display key insights.</li>
+        <li>Use <strong>Cards</strong> to highlight KPIs (sales, profit, etc.).</li>
+        <li>Insert <strong>Slicers</strong> for interactivity by Region or Date.</li>
+        <li>Add <strong>Titles</strong>, <strong>Shapes</strong>, or <strong>Logos</strong> for branding.</li>
+        <li>Align visuals using <strong>View → Snap to Grid</strong>.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Step 7: Build Data Relationships</h2>
+      <ol>
+        <li>Click the <strong>Model View</strong> (table icon on the left).</li>
+        <li>Drag and drop related fields (e.g., <code>CustomerID</code> ↔ <code>CustomerID</code>).</li>
+        <li>Verify the correct relationship type (one-to-many, many-to-one).</li>
+        <li>Relationships enable cross-filtering and unified insights.</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Step 8: Save and Publish</h2>
+      <ol>
+        <li>Click <strong>File → Save As</strong> and name your file (e.g., <code>Sales_Dashboard.pbix</code>).</li>
+        <li>To publish online:
+          <ul>
+            <li>Sign in with your Microsoft account.</li>
+            <li>Click <strong>Publish → My Workspace</strong>.</li>
+            <li>Access it later at <a href="https://app.powerbi.com" target="_blank">https://app.powerbi.com</a>.</li>
+          </ul>
+        </li>
+        <li>Alternatively, export as <strong>PDF</strong> or <strong>PowerPoint</strong>.</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Step 9: Refresh and Automate Data</h2>
+      <ol>
+        <li>In the Power BI Service, open your published dashboard.</li>
+        <li>Click <strong>Schedule Refresh</strong> to set up automatic updates.</li>
+        <li>For on-premise data, install the <strong>Power BI Gateway</strong>.</li>
+      </ol>
+    </section>
+
+    <div class="highlight">
+      <strong>✅ You’re Ready to Build Interactive Dashboards!</strong>
+      <p>With Power BI Desktop installed, you can now:</p>
+      <ul>
+        <li>Create professional, interactive dashboards and visual reports.</li>
+        <li>Connect multiple data sources and model relationships.</li>
+        <li>Publish and share insights securely with your team or LinkedIn network.</li>
+      </ul>
+    </div>
+  </main>
+
+  <footer>
+    © 2025 Strategic Insights & Analytics — Guide by Dr. Olugbenga Asaolu
+  </footer>
+</body>
+</html>
